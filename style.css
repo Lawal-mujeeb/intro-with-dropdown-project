@@ -123,21 +123,24 @@ p {
   }
   main{
     padding: 0 120px;
+    gap: 30px;
   }
   #section-1{
     min-height: 100vh;
   }
    h1{
    text-align: left;
-   font-size: 50px;
+   font-size: 4rem;
+   line-height: 1.1;
    font-weight: 700;
-   /* border: 1px solid blue; */
-   width: 75%;
+   border: 0.1px solid white;
+   width: 100%;
    margin-bottom: 30px;
   }
   p{
     text-align: left;
      margin-bottom: 20px;
+     line-height: 1.6;
   }
   #left{
     /* border: 2px solid red; */
@@ -151,5 +154,14 @@ padding-right: 120px;
     /* border: 2px solid red; */
   max-width: 80%;
   margin-top: 80px;
+  padding-top: 80px;
+  gap: 40px;
   }
+
+#desktop-hero{
+  display: block;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
 }
